@@ -1,6 +1,6 @@
 {
-    "description": "Official Early-Access Builds of OpenJDK",
-    "homepage": "https://jdk.java.net/",
+    "description": "Official production-ready open-source builds of OpenJDK 23",
+    "homepage": "https://jdk.java.net/22",
     "version": "23.0.0-37",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
@@ -9,7 +9,7 @@
             "hash": "cba5013874ba50cae543c86fe6423453816c77281e2751a8a9a633d966f1dc04"
         }
     },
-    "extract_dir": "jdk-23.0.0",
+    "extract_dir": "jdk-23",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"
